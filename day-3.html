@@ -17,7 +17,7 @@
   <p>The += operator adds on to the end of the string. We call this appending to the end of the string.</p>
   <h3>Example</h3>
   <p>Lets take two fruits and invent a new fruit.</p>
-  <p>I like strawberies I also like watermelon. Let's create a strawberrywatermelon</p>
+  <p>I like strawberries; I also like watermelon. Let's create a strawberrywatermelon</p>
   <script>
     let f1, f2;
     f1 = "strawberry";
@@ -29,12 +29,26 @@
   <script>
     // Try it! 
     let f4, f5;
-
-    document.write();
+    f4 = "pineapple";
+    f5 = "grapefruit";
+    document.write(f4 + f5);
+  </script>
+  <script>
+    let f7, f8;
+    f7 = "blueberry";
+    f8 = "plum";
+    document.write(f7 + f8);
   </script>
   <p> Try it! One more time, make up a new fruit! </p>
+  <script>
+    let f10, f11;
+    f10 = "mango";
+    f11 = "dragonfruit";
+    document.write(f10 + f11);
+  </script>
+
   <h3>Another Example</h3>
-  <p> You can use the + operator mulitple times to combine more strings. Let's improve our fruit names by inserting a
+  <p> You can use the + operator multiple times to combine more strings. Let's improve our fruit names by inserting a
     "-" between them.</p>
   <p>I like
     <script>
@@ -46,24 +60,24 @@
   <p>
     I also like:
     <script>
-      document.write();
+      document.write(f4 + "-" + f5);
     </script>
   </p>
   <p>
     But my favorite is:
     <script>
-      document.write();
+      document.write(f7 + "-" + f8);
     </script>
   </p>
 
   <h2>Example of +=</h2>
   <p>Let's look at the += operator. It looks funny, but is very useful sometimes.</p>
   <p> It adds on to the end of the string.</p>
-  <p>Maybe I want a fruit that is not just 1 but many fruits combined. I want a strawberry watermellon cherry!</p>
+  <p>Maybe I want a fruit that is not just 1 but many fruits combined. I want a strawberry watermelon cherry!</p>
   <script>
     let fruit1;
     fruit1 = "strawberry";
-    fruit1 += "watermellon";
+    fruit1 += "watermelon";
     fruit1 += "cherry";
   </script>
   <p>
@@ -80,9 +94,12 @@
   <p>
     The best fruit in the world would be a...
     <script>
+      let fruit4;
+      fruit4 = "plum";
+      fruit4 += "pineapple";
+      fruit4 += "watermelon";
 
-
-      document.write();
+      document.write(fruit4);
     </script>
   </p>
   <h3>Try it!</h3>
@@ -91,9 +108,13 @@
   <p>
     Really, the best is...
     <script>
+      let fruit7;
+      fruit7 = "blueberry-";
+      fruit7 += "grapefruit-";
+      fruit7 += "kiwi-";
+      fruit7 += "strawberry";
 
-
-
+      document.write(fruit7);
     </script>
   </p>
 
