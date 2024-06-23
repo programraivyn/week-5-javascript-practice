@@ -5,21 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>JS | CSS | HTML</title>
 </head>
 
 <body>
-  <h1>A game of rock - paper - scissors</h1>
+  <h1>The battle between JS | CSS | HTML</h1>
   <script>
 
-    let move1 = prompt("Player 1: rock, paper, or scissors?");
+    let challenge1 = prompt("Student I: JS, CSS or HTML?!");
 
-    let move2 = prompt("Player 2: rock, paper, or scissors?");
+    let challenge2 = prompt("Student II: JS, CSS or HTML?!");
 
-    if (move1 === "rock" && move2 === "scissors") {
-      document.write("Player 1 wins");
-    } else if (move1 === "rock" && move2 === "paper") {
-      document.write("Player 2 wins");
+    let challenge3 = prompt ("Student III: JS, CSS, or HTML?!");
+
+    if (challenge1 === "JS" && challenge2 === "HTML" && challenge3 === "CSS") {
+      document.write("Student I takes the cake");
+    } else if (challenge1 === "JS" && challenge2 === "CSS" && challenge3 === "HTML") {
+      document.write("Student II takes the pie");
+    } else if (challenge1 === "HTML" && challenge2 === "JS" && challenge3 === "CSS") {
+      document.write("Student III takes the cookie");
     }
 
   </script>
